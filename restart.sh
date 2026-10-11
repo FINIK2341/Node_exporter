@@ -1,5 +1,5 @@
 NAME=node_exporter
-cd /home/test/monitoring/node_exporter/
+cd /home/$USER/monitoring/node_exporter/
 
 pid=$(ps aux | grep -v grep | grep $NAME | awk '{print $2}')
 
