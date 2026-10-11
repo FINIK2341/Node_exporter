@@ -1,0 +1,13 @@
+./node_exporter \
+--collector.disable-defaults \
+--collector.cpu \
+--collector.filesystem \
+--collector.meminfo \
+--collector.os \
+--collector.uname \
+--collector.netstat \
+--collector.netdev \
+--collector.tcpstat \
+--collector.loadavg \
+--collector.diskstats \
+--web.listen-address=":2056" &
